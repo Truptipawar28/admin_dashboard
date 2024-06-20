@@ -1,0 +1,13 @@
+.teamMembers{
+    flex: 4;
+    background-color: rgba(224, 216, 216, 0.226);
+}
+
+.userListEdit{
+    padding: 0 40px;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+}

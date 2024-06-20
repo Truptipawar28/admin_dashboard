@@ -1,0 +1,67 @@
+.mainSidebarContainer{
+    flex: 0.8;
+    background-color: white;
+}
+
+.ulContainer{
+    margin-top: 30px;
+}
+
+
+.liContainer{
+    display: flex;
+    align-items: center;
+    margin-top: -7px;
+}
+
+.menu{
+    display: flex;
+    color: rgb(66, 71, 75);
+    margin-left: -10px;
+    margin-bottom: 20px;
+}
+
+.sidebaricons{
+    width: 30px;
+    height: 30px;
+    color: black;
+}
+
+.itemName{
+    margin-left: 13px;
+    margin-top: 10px;
+    color: rgb(70, 76, 81);
+    
+}
+
+.scheduledContainer{
+    display: flex;
+    margin-left: 30px;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: rgba(61, 65, 63, 0.102);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.scheduledContainer label{
+    margin-left: 10px;
+}
+
+.scheduledTitle{
+    font-size: 14px;
+    color: rgb(70, 76, 81);
+    margin-right: 80px;
+    margin-left: 10px;
+
+}
+
+.mainScheduledContainer{
+    margin-top: 40px;
+}
+
+@media (max-width:768px){
+    .navbar button{
+        border: 0;
+    }
+}

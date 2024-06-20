@@ -1,0 +1,86 @@
+
+
+.mainNavbarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #00000010;
+    backdrop-filter: blur(20px); */
+    border-radius: 13px;
+    position: fixed;
+    backdrop-filter: blur(20px);
+    width: 80%;
+}
+
+.dashboardContainer{
+    flex: 0.7;
+}
+.searchIcon{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.notificationIcon{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(228, 213, 213);
+    padding: 4px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.profileIcon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.searchItemContainer{
+    display: flex;
+    flex: 2;
+    margin-right: 100px;
+    background-color: rgb(234, 234, 237);
+    padding: 6px;
+    border-radius: 16px;
+    border: 1px solid rgb(126, 116, 116);
+}
+
+.searchInput{
+    width: 100%;
+    border: none;
+    padding: 5px;
+    background-color: rgb(234, 234, 237);
+}
+
+.profileItemContainer{
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+}
+
+.profileItemContainer{
+    display: flex;
+    align-items: center;
+}
+
+.dashText{
+    font-size: 20px;
+    margin-right: 88px;
+    margin-left: 10px;
+}
+
+.profileName{
+    margin: 13px 7px;
+}
+
+@media (max-width:768px){
+    .itemContainer1 , .itemContainer2, .itemContainer3{
+        width: 291px;
+    }
+}

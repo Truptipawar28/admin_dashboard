@@ -1,0 +1,190 @@
+.mainHomeRightbar{
+    flex: 4;
+    background-color: rgba(188, 179, 179, 0.226);
+    height: 100vh;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.itemContainer{
+    /* display: flex;
+    justify-content: center;
+    margin: auto; */
+}
+
+.itemContainer1{
+    background-color: rgb(255, 255, 255);
+    /* width: 390px; */
+    height: 140px;
+    /* margin-left: 10px; */
+    margin-top: 90px;
+    border-radius: 10px;
+    /* display: flex; */
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.itemContainer2{
+    background-color: rgb(255, 255, 255);
+    /* width: 390px; */
+    height: 140px;
+    /* margin-left: 10px; */
+    margin-top: 90px;
+    border-radius: 10px;
+    /* display: flex; */
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.itemContainer3{
+    background-color: rgb(255, 255, 255);
+    /* width: 390px; */
+    height: 140px;
+    /* margin-left: 10px; */
+    margin-top: 90px;
+    border-radius: 10px;
+    /* display: flex; */
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.taskProgress{
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding-top: 15px;
+    color: rgb(76, 77, 78);
+    font-weight: 600;
+}
+
+.taskCounter{
+    text-align: start;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: -8px;
+    color: palevioletred;
+}
+
+.currentMonth1{
+    text-align: start;
+    margin-left: 10px;
+    /* margin-top: -2px; */
+    color: rgb(76, 77, 78);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.barchartContainer{
+    margin-left: 160px;
+    margin-top: -110px;
+}
+
+.taskCounter1{
+    text-align: start;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: -8px;
+    color: cornflowerblue;
+}
+
+.taskCounter2{
+    text-align: start;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: -8px;
+    color: plum;
+}
+
+.taskCreatevsComplete{
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.middleTaskChart{
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border-radius: 10px;
+}
+
+.taskContainer{
+    display: flex;
+    width: 55%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.taskChart{
+    flex: 1.7;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.monthlyEarning{
+    flex: 4;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.taskContainerText{
+    text-align: start;
+    margin-left: 10px;
+    color: rgb(76, 77, 78);
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.teamPerformanceTask{
+    margin-top: -170px;
+    text-align: center;
+    margin-left: 30px;
+    width: 80%;
+    color: rgb(76, 77, 78);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.viewDetailsBtn{
+    padding: 6px 10px;
+    margin-left: 95px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: 600;
+}
+
+@media (max-width:991px){
+    .itemContainer3{
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:768px){
+    .itemContainer2{
+        margin-top: 0;
+    }
+
+    .itemContainer3{
+        margin-left: 0;
+    }
+
+    .recharts-wrapper {
+        padding-right: 30px;
+    }
+
+    .middleTaskChart{
+        width: 100%;
+    }
+}
